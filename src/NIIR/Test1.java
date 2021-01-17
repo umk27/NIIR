@@ -52,7 +52,7 @@ public class Test1 {
                     JFrame f1 = new JFrame();
                     JTextArea t = new JTextArea("!!Длина текста не должна быть более 50 символов!");
                     f1.add(t);
-                    f1.setSize(400, 200);
+                    f1.setBounds(600,400,400, 200);
                     f1.setVisible(true);
                     f1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 }
@@ -61,7 +61,7 @@ public class Test1 {
                         JFrame f1 = new JFrame();
                         JTextArea t = new JTextArea("!!При вводе не должно быть чисел!");
                         f1.add(t);
-                        f1.setSize(400, 200);
+                        f1.setBounds(600,400,400, 200);
                         f1.setVisible(true);
                         f1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                     }
@@ -99,7 +99,7 @@ public class Test1 {
         });
 
         f.add(p1);
-        f.setSize(500, 400);
+        f.setBounds(600,400,500, 400);
         f.setVisible(true);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
